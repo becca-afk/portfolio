@@ -167,3 +167,47 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.cv-button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #670626;
+    color: white;
+    border-radius: 5px;
+    margin-right: 1rem;
+    transition: background-color 0.3s;
+}
+
+.cv-button:hover {
+    background-color: #BAD797;
+    color: #670626;
+    text-decoration: none;
+}
+
+.testimonial {
+    background: linear-gradient(135deg, rgba(186, 215, 151, 0.1), rgba(103, 6, 38, 0.1));
+    padding: 2rem;
+    border-left: 4px solid #670626;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #670626;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.footer a {
+    color: #BAD797;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
